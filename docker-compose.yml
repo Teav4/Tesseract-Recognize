@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  app:
+    image: tesseract
+    ports:
+      - "3002:3002"
+    restart: unless-stopped
+    env_file: .env
+    volumes: 
+      - ./coverage:/app/coverage
+      

@@ -1,0 +1,8 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+      "semi": ["warn", "never"],
+      "quotes": [2, "single"]
+    }
+}
